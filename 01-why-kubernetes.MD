@@ -15,7 +15,7 @@ Of course that you could address these issues above by running a systemd unit fo
 
 Well, that might be arguments enough, but there are still much more. Forget about the Elasticsearch thing and imagine now that you are running a stateless web application using Docker containers. How would you deploy a new application release? Manually removing containers and launching new ones based on the new Docker image? Really, as a DevOps Engineer (or whatever you wanna call it), does it sound good to read the word “manually”? I bet you know the key for the DevOps culture is automation.
 
-I think you are already convinced that, for production purposes, running and managing (or… **orchestrating**) container life cycles by yourself may not be a good idea. So, who is going to do this for you? That’s right, Kubernetes! That’s why we call tools like Kubernetes, **Docker Swarm, Amazon ECS** and others as **Container Orchestration Tools**.
+I think you are already convinced that, for production purposes, running and managing (or… **orchestrating**) container life cycles by yourself may not be a good idea. So, who is going to do this for you? That’s right, Kubernetes! That’s why we call tools like **Kubernetes, Docker Swarm, Amazon ECS** and others as **Container Orchestration Tools**.
 
 Kubernetes has a set of great features that are very useful specially when it comes to production environments:
 
